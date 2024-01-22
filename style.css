@@ -16,21 +16,38 @@ section{
 
 /* HOME *************************/
 
+#Home{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(img/LandingPageHintergrund2.png);
+    background-position: center center;
+    background-size: cover;
+}
 
 #logo{
+    height: 42px;
     width: 30.625%;
-    margin: 2% 34.6875% auto 34.6875%;
+    margin: 0 34.6875% auto 34.6875%;
+    padding-top: 2%;
+}
+
+#logo a{
+    height: 42px;
 }
 
 #logo a img{
+    height: 42px;
     width: 100%;
     height: 100%;
 }
 
 
 nav{
-    bottom: 10px;
-    position: sticky;
+    bottom: 0;
+    position: fixed;
     background-color: #000;
     width: 100%;
     height: 85px;
