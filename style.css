@@ -163,7 +163,7 @@ p{
     -o-transition: all 300ms;
 }
 
-#LangerText{
+.LangerText{
     margin: auto 20% auto 20%;
     font-size: 27px;
 }
@@ -236,9 +236,4 @@ p{
     -webkit-transition: all 300ms;
     -moz-transition: all 300ms;
     -o-transition: all 300ms;
-}
-
-#LangerText{
-    margin: auto 20% auto 20%;
-    font-size: 27px;
 }
