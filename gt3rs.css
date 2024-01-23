@@ -111,3 +111,20 @@ section video{
 #sectionmitvideo{
     min-height: 0;
 }
+
+#zeroopacity{
+    opacity: 0;
+    color: #000;
+    height: 60vh;
+}
+
+section div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section div div{
+    display: flex;
+    flex-direction: column;
+}
