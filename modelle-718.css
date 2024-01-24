@@ -19,18 +19,18 @@ p{
     padding: 0;
     text-align: center;
     font-family: "Istok Web";
-    font-size: 35px;
+    font-size: 3.24vh;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
 h1{
-    margin: 19px auto 30px auto;
+    margin: 0.926vh auto 2.7777vh auto;
     padding: 0;
     text-align: center;
     font-family: 'Satisfy', cursive;
-    font-size: 70px;
+    font-size: 6.48vh;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
@@ -95,7 +95,9 @@ nav ul li a{
 
 
 #main1stPage{
-    min-height: calc(100vh - 85px);
+    max-width: 100%;
+    max-height: calc(100vh - 85px);
+    min-height: 0;
     height: calc(100vh - 85px);
     display: flex;
     flex-direction: column;
@@ -104,11 +106,11 @@ nav ul li a{
 
 #main1stPage h1{
     margin: 0;
-    padding: 70px 0 20px 0;
+    padding: 3.08vh 0 1.85vh 0;
 }
 
 #main1stPage div{
-    width: 35%;
+    width: 30%;
 }
 
 #main1stPage div img{
@@ -117,13 +119,17 @@ nav ul li a{
 }
 
 table{
-    width: 80%;
+    max-width: 80vw;
+    width: 80vw;
+    max-height: 40vh;
     height: 40vh;
-    padding-top: 35px;
 }
 
 table tbody tr td{
-    padding: 15px;
+    max-width: 16vw;
+    max-height: 28.6025vh;
+
+    padding: 1.38888vh 0.78vh;
     border-radius: 10px;
 
     transition: all 300ms;
@@ -142,7 +148,11 @@ table tbody tr td:hover{
     -o-transition: all 300ms;
 }
 
+table tbody tr td img{
+    max-width: 100%;
+}
+
 table tbody tr td p{
-    font-size: 20px;
+    font-size: 1.85vh;
     text-align: left;
 }
