@@ -1,0 +1,101 @@
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Istok Web";
+    font-size: 3.24vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h1{
+    margin: 0.926vh auto 2.7777vh auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 6.48vh;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.FetteSchrift{
+    font-family: 'Anton', sans-serif;
+    margin-top: 0;
+}
+
+.satisfyschrift{
+    font-family: 'Satisfy', cursive;
+}
+
+.istokweb{
+    font-family: "Istok Web";
+}
+
+
+
+/* NAVBAR ********************/
+
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+
+    background-color: #000;
+    width: 100%;
+    height: 85px;
+    margin: auto 0 auto 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: auto;
+}
+
+nav ul li{
+    float: left;
+    margin: auto 2.6% auto 2.6%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Istok Web";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+

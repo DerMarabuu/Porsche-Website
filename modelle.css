@@ -1,118 +1,28 @@
 
-
-
-html{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
-section{
-    width: 100%;
-    min-height: 100vh;
-}
-
-p{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: "Istok Web";
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-h1{
-    margin: 10px auto 40px auto;
-    padding: 0;
-    text-align: center;
-    font-family: "Istok Web";
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 1000;
-    line-height: normal;
-}
-
-a{
-    text-decoration: none;
-    color: #000;
-}
-
-.satisfyschrift{
-    font-family: 'Satisfy', cursive;
-}
-
-.FetteSchrift{
-    font-family: 'Anton', sans-serif;
-}
-
-/****** NAVBAR **********************/
-
-
-
-
-nav{
-    position: sticky;
-    top: 0;
-
-    background-color: #000;
-    width: 100%;
-    height: 85px;
-    margin: auto 0 auto 0;
-    z-index: 1;
-}
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    overflow-x: auto;
-}
-
-nav ul li{
-    float: left;
-    margin: auto 2.6% auto 2.6%;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: "Istok Web";
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-
-
 /***** MAIN ***************************/
 
 
+body{
+    max-height: calc(100vh - 0.5vh);
+}
 
+h1{
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+}
 
 table{
     height: 80vh;
     width: 80vw;
-    margin: calc(10vh - 150px) 10vw calc(10vh - 85px) 10vw;
+    margin: calc(10vh - calc(0.926vh + 1.7777vh + 6.48vh)) 10vw 0 10vw;
 }
 
 table tbody tr{
-    margin-bottom: 5%;
+    min-height: 40vh;
 }
 
 table tbody tr td{
-    padding: 5vh 5vw;
+    padding: 3vh 3vw;
     justify-content: center;
 }
 
