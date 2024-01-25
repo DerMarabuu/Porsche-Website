@@ -6,38 +6,38 @@
 }
 .zubeh-r {
   background: #fafafa;
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }
 .rectangle-3 {
   background: #cacaca;
   border-radius: 196px;
-  width: 2033px;
-  height: 1733px;
+  width: 105.885416vw;
+  height: 160.462963vh;
   position: absolute;
-  left: -1510px;
-  top: 120.79px;
+  left: -76.645833vw;
+  top: 20.184259vh;
   transform-origin: 0 0;
-  transform: rotate(-25.361deg) scale(1, 1);
+  transform: rotate(335deg) scale(1, 1);
 }
 .zubeh-r2 {
   color: #000000;
   text-align: center;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 70px;
+  font-size: 3.64583vw;
   font-weight: 700;
   position: absolute;
-  left: 793px;
-  top: 30px;
+  left: 41.3020833vw;
+  top: 2.7777777vh;
 }
 .main-nav {
-  width: 1920px;
+  width: 100vw;
   height: 85px;
   position: absolute;
-  left: 0px;
-  top: 995px;
+  left: 0;
+  top: 92.129629vh;
 }
 .main-nav-background {
   background: #000000;
@@ -53,7 +53,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.822916vw;
   font-weight: 700;
   position: absolute;
   right: 72.5%;
@@ -70,7 +70,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.822916vw;
   font-weight: 700;
   position: absolute;
   right: 58.59%;
@@ -87,7 +87,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.822916vw;
   font-weight: 700;
   position: absolute;
   right: 46.72%;
@@ -104,7 +104,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.822916vw;
   font-weight: 700;
   position: absolute;
   right: 32.76%;
@@ -121,7 +121,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.822916vw;
   font-weight: 700;
   position: absolute;
   right: 19.06%;
@@ -144,27 +144,27 @@
   border-style: solid;
   border-color: #000000;
   border-width: 10px;
-  width: 475px;
-  height: 475px;
+  width: 24.73958333vw;
+  height: 24.73958333vw;
   position: absolute;
-  left: 170px;
-  top: 288px;
+  left: 8541666vw;
+  top: 26.6666666vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .kreise {
-  width: 643px;
-  height: 568px;
+  width: 33.48958333vw;
+  height: 52.5925926vh;
   position: static;
 }
 .ellipse-2 {
   background: #ffffff;
   border-radius: 50%;
-  width: 199px;
-  height: 199px;
+  width: 10.3645833vw;
+  height: 10.3645833vw;
   position: absolute;
-  left: 530px;
-  top: 426px;
+  left: 27.60416666vw;
+  top: 39.4444444vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
@@ -172,11 +172,11 @@
 .ellipse-3 {
   background: #ffffff;
   border-radius: 50%;
-  width: 171px;
-  height: 171px;
+  width: 8.90625vw;
+  height: 8.90625vw;
   position: absolute;
-  left: 424px;
-  top: 640px;
+  left: 22.0833333vw;
+  top: 59.25925926vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
@@ -184,11 +184,11 @@
 .ellipse-4 {
   background: #ffffff;
   border-radius: 50%;
-  width: 171px;
-  height: 171px;
+  width: 8.90625vw;
+  height: 8.90625vw;
   position: absolute;
-  left: 200px;
-  top: 633px;
+  left: 10.4166666vw;
+  top: 58.61111vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
@@ -196,11 +196,11 @@
 .ellipse-5 {
   background: #ffffff;
   border-radius: 50%;
-  width: 171px;
-  height: 171px;
+  width: 8.90625vw;
+  height: 8.90625vw;
   position: absolute;
-  left: 86px;
-  top: 440px;
+  left: 4.4791666vw;
+  top: 40.74074vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
@@ -208,11 +208,11 @@
 .ellipse-6 {
   background: #ffffff;
   border-radius: 50%;
-  width: 171px;
-  height: 171px;
+  width: 8.90625vw;
+  height: 8.90625vw;
   position: absolute;
-  left: 200px;
-  top: 243px;
+  left: 10.4166666vw;
+  top: 22.5vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
@@ -220,92 +220,96 @@
 .ellipse-7 {
   background: #ffffff;
   border-radius: 50%;
-  width: 171px;
-  height: 171px;
+  width: 8.90625vw;
+  height: 8.90625vw;
   position: absolute;
-  left: 424px;
-  top: 243px;
+  left: 22.0833333vw;
+  top: 22.5vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .modellauto-1 {
   border-radius: 48px;
-  width: 187px;
-  height: 88px;
+  width: 9.7395833vw;
+  height: 8.148148148vh;
   position: absolute;
-  left: 536px;
-  top: 481px;
+  left: 27.91666666vw;
+  top: 44.537037vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
 .schl-sselanh-nger-1 {
   border-radius: 85px;
-  width: 141px;
-  height: 158px;
+  width: 7.34375vw;
+  height: 14.62962963vh;
   position: absolute;
-  left: 439px;
-  top: 647px;
+  left: 22.8645833vw;
+  top: 59.9074vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
 .thermoflasche-1 {
   border-radius: 68.5px;
-  width: 129px;
-  height: 145px;
+  width: 6.71875vw;
+  height: 13.42593vh;
   position: absolute;
-  left: 221px;
-  top: 646px;
+  left: 11.5104166vw;
+  top: 59.8148vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
 .e-bike-1 {
   border-radius: 113px;
-  width: 135px;
-  height: 152px;
+  width: 7.03125vw;
+  height: 14.074074vh;
   position: absolute;
-  left: 218px;
-  top: 252px;
+  left: 11.35416666vw;
+  top: 23.3333333vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
 .fahrzeugschl-ssel-1 {
   border-radius: 221px;
-  width: 128px;
-  height: 144px;
+  width: 6.66666666vw;
+  height: 13.333333vh;
   position: absolute;
-  left: 446px;
-  top: 255px;
+  left: 23.229166vw;
+  top: 23.6111111vh;
   object-fit: cover;
 }
 .cap-1 {
   border-radius: 125.5px;
-  width: 127px;
-  height: 143px;
+  width: 6.6145833vw;
+  height: 13.24074074vh;
   position: absolute;
-  left: 104px;
-  top: 452px;
+  left: 5.4166666vw;
+  top: 41.85185185vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
   object-fit: cover;
 }
+
+
+
+
 .pfeile {
-  width: 81.96px;
-  height: 334.96px;
+  width: 4.2546875vw;
+  height: 31.0148148vh;
   position: static;
 }
 .ellipse-8 {
   background: #ffffff;
   border-radius: 50%;
-  width: 74px;
-  height: 74px;
+  width: 3.85416666vw;
+  height: 3.85416666vw;
   position: absolute;
-  left: 715px;
-  top: 615px;
+  left: 37.23958333vw;
+  top: 56.94444444vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
@@ -313,31 +317,31 @@
 .ellipse-9 {
   background: #ffffff;
   border-radius: 50%;
-  width: 74px;
-  height: 74px;
+  width: 3.85416666vw;
+  height: 3.85416666vw;
   position: absolute;
-  left: 715px;
-  top: 362px;
+  left: 37.23958333vw;
+  top: 33.5185185vh;
   box-shadow: 0px 0px 36.5px 12px rgba(0, 0, 0, 0.35);
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .pfeil-2 {
-  width: 60px;
-  height: 60px;
+  width: 5.55555555vh;
+  height: 5.55555555vh;
   position: absolute;
-  left: 741px;
-  top: 439.96px;
+  left: 38.593755937vw;
+  top: 40.648148vh;
   transform-origin: 0 0;
   transform: rotate(-120deg) scale(1, 1);
   object-fit: cover;
 }
 .pfeil-3 {
-  width: 60px;
-  height: 60px;
+  width: 5.55555555vh;
+  height: 5.55555555vh;
   position: absolute;
-  left: 792.96px;
-  top: 641px;
+  left: 41.25vw;
+  top: 59.351851vh;
   transform-origin: 0 0;
   transform: rotate(120deg) scale(1, 1);
   object-fit: cover;
@@ -345,8 +349,8 @@
 .rectangle-4 {
   background: #ffffff;
   border-radius: 31px;
-  width: 670px;
-  height: 62px;
+  width: 34.8958333vw;
+  height: 5.74074vh;
   position: absolute;
   left: -49px;
   top: 39px;
@@ -355,24 +359,31 @@
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 20px;
+  font-size: 1.0416666vw;
   font-weight: 700;
   position: absolute;
-  left: 480px;
-  top: 56px;
+  left: 25vw;
+  top: 5.785185vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
+
+
+
+
+
+
+
 .modellautos {
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Regular", sans-serif;
-  font-size: 20px;
+  font-size: 1.0416666vw;
   font-weight: 400;
   position: absolute;
-  left: 312px;
-  top: 56px;
+  left: 16.25vw;
+  top: 5.785185vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -381,11 +392,11 @@
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Regular", sans-serif;
-  font-size: 20px;
+  font-size: 1.0416666vw;
   font-weight: 400;
   position: absolute;
-  left: 154px;
-  top: 56px;
+  left: 8.020833333vw;
+  top: 5.785185vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -394,11 +405,11 @@
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Regular", sans-serif;
-  font-size: 20px;
+  font-size: 1.0416666vw;
   font-weight: 400;
   position: absolute;
-  left: 15px;
-  top: 56px;
+  left: 0.78125vw;
+  top: 5.785185vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -410,78 +421,83 @@
 .rectangle-5 {
   background: #9f9f9f;
   border-radius: 69px;
-  width: 664px;
-  height: 495px;
+  width: 34.5833333vw;
+  height: 45.8333333vh;
   position: absolute;
-  left: 1165px;
-  top: 452px;
+  left: 60.67708333vw;
+  top: 41.8518518vh;
   box-shadow: 0px 0px 106.3px 5px rgba(0, 0, 0, 0.5);
 }
 .modellauto {
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 45px;
+  font-size: 2.34375vw;
   font-weight: 700;
   position: absolute;
-  left: 1222px;
-  top: 503px;
-  width: 238px;
-  height: 48px;
+  left: 63.6458333333333vw;
+  top: 46.574074074vh;
+  width: 12.3958333vw;
+  height: 4.44444444444vh;
 }
+
+
+
+
+
 .porsche-911-gt-3-rs-992-limited-edition {
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.82291666vw;
   font-weight: 700;
   position: absolute;
-  left: 1222px;
-  top: 574px;
-  width: 597px;
-  height: 93px;
+  left: 63.6458333333333vw;
+  top: 53.148148vh;
+  width: 31.09375vw;
+  height: 8.611111vh;
 }
 .ma-stab-1-18 {
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.82291666vw;
   font-weight: 700;
   position: absolute;
-  left: 1222px;
-  top: 690px;
-  width: 597px;
-  height: 40px;
+  left: 63.6458333333333vw;
+  top: 63.88888888888vh;
+  width: 31.09375vw;
+  height: 3.7037037vh;
 }
 .farbe-eisgraumetallic {
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 1.82291666vw;
   font-weight: 700;
   position: absolute;
-  left: 1222px;
-  top: 753px;
-  width: 597px;
-  height: 40px;
+  left: 63.6458333333333vw;
+  top: 69.72222222vh;
+  width: 31.09375vw;
+  height: 3.7037037vh;
 }
 .streng-limitiertes-sammlermodell-des-porsche-911-gt-3-rs-992-aus-resine {
   color: #000000;
   text-align: left;
   font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 23px;
+  font-size: 1.197916666vw;
   font-weight: 700;
   position: absolute;
-  left: 1222px;
-  top: 816px;
-  width: 597px;
-  height: 72px;
+  left: 63.6458333333333vw;
+  top: 75.55555555vh;
+  width: 31.09375vw;
+  height: 6.6666666666vh;
 }
 .modellauto-2 {
-  width: 613px;
-  height: 292px;
+  width: 31.92708333vw;
+  height: 27.037037vh;
   position: absolute;
-  left: 1190px;
-  top: 56px;
+  left: 61.979166vw;
+  top: 5.18518518vh;
   object-fit: cover;
 }
