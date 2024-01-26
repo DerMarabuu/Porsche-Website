@@ -136,6 +136,8 @@
 }
 .dreh-kreis {
   position: absolute;
+  width: min-content;
+  height: min-content;
   inset: 0;
 }
 .ellipse-1 {
@@ -147,7 +149,7 @@
   width: 24.73958333vw;
   height: 24.73958333vw;
   position: absolute;
-  left: 8541666vw;
+  left: 8.541666vw;
   top: 26.6666666vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
