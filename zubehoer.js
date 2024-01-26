@@ -18,7 +18,6 @@ function ButtonDrehen(){
 TestButton.addEventListener("click", ButtonDrehen);
 
 
-****************/
 
 
 
@@ -33,4 +32,7 @@ function Drehen(){
     drehkreis.style = `transform: translate(4.4791666vw, 22.5vh) rotate(${DrehKreisDegrees}deg)`;
 }
 
-ArrowForward.addEventListener("click", Drehen)
+ArrowForward.addEventListener("click", Drehen);
+
+
+****************/

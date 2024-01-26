@@ -29,14 +29,15 @@ p{
 }
 
 h1{
-    margin: 0.926vh auto 2.7777vh auto;
-    padding: 0;
+    margin: 0 auto 2.7777vh auto;
+    padding: 0.926vh 0 0 0;
     text-align: center;
-    font-family: 'Satisfy', cursive;
+    font-family: "Istok Web";
     font-size: 6.48vh;
     font-style: normal;
     font-weight: 1000;
     line-height: normal;
+    text-transform: uppercase;
 }
 
 a{
