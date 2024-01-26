@@ -416,6 +416,7 @@
 }
 .beschreibung {
   position: absolute;
+  width: 1vw;
   inset: 0;
 }
 .rectangle-5 {
