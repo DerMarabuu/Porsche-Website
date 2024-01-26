@@ -4,10 +4,6 @@
 
 
 #standortemain{
-    width: 100%;
-    min-height: calc(100vh - 85px);
-    max-height: calc(100vh - 85px);
-    height: calc(100vh - 85px);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -100,3 +96,6 @@
     -o-transition: all 400ms;
 }
 
+label:has(+ input:focus) {
+    color: red;
+}

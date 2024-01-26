@@ -10,8 +10,11 @@ body{
 }
 
 section{
-    width: 100%;
     min-height: 100vh;
+}
+
+section:has(+ nav){
+    min-height: calc(100vh - 85px);
 }
 
 p{
@@ -75,6 +78,7 @@ nav{
 
 nav ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 85px;
@@ -84,12 +88,11 @@ nav ul{
     overflow-x: auto;
 }
 
-nav ul li{
-    float: left;
+nav li{
     margin: auto 2.6% auto 2.6%;
 }
 
-nav ul li a{
+nav a{
     text-decoration: none;
     color: #fff;
     font-family: "Istok Web";
