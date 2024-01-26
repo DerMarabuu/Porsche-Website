@@ -18,13 +18,13 @@
     align-items: center;
 }
 
-#main div, #main iframe{
+#kontaktformular, #main iframe{
     padding: 0 3%;
     height: 60vh;
     border: 0;
 }
 
-#main div{
+#kontaktformular{
     width: 33.333%;
 }
 
@@ -50,7 +50,7 @@
     line-height: normal;
 }
 
-#kontaktformular form input, #kontaktformular form textarea, #kontaktformular form button{
+ input, textarea, button{
     
     font-family: "Istok Web";
     font-size: 2.24vh;
@@ -58,8 +58,10 @@
     font-weight: 700;
     line-height: normal;
 
+    outline: none;
+
     width: 100%;
-    margin: 2vh;
+    margin: 2vh 0;
     padding: 0.8vh 0.8vw;
     border-radius: 10px;
     border: 2px;
@@ -74,7 +76,7 @@
     -o-transition: all 400ms;
 }
 
-#kontaktformular form input:hover, #kontaktformular form textarea:hover, #kontaktformular form button:hover{
+input:hover, textarea:hover, button:hover{
     transform: translate(-10px, -10px);
     box-shadow: 14px 14px 10px rgba(0, 0, 0, 0.7);
 
@@ -84,7 +86,7 @@
     -o-transition: all 400ms;
 }
 
-#kontaktformular form input:focus, #kontaktformular form textarea:focus, #kontaktformular form button:focus{
+input:focus, textarea:focus, button:focus{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
     transform: translate(-10px, -10px);
     border-color: #4d4d4d;
@@ -94,6 +96,22 @@
     -webkit-transition: all 400ms;
     -moz-transition: all 400ms;
     -o-transition: all 400ms;
+}
+
+.input-group{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.input-group label{
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.input-group input{
+    position: absolute;
 }
 
 label:has(+ input:focus) {
