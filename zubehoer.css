@@ -5,10 +5,15 @@
   background-position: center center;
 }
 
+h1{
+  margin: 0;
+}
+
 #grosseCard{
-  margin: 0 2.5vw;
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 0 2.5vw;
-  width: 95%;
   max-height: calc(100vh - 85px - 0.926vh - 2.7777vh);
   display: grid;
   justify-content: center;
@@ -24,12 +29,31 @@
 
 #RechteHälfte{
   padding: 0 7.5%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 #RechteHälfte img{
   width: 100%;
 }
 
-#RechteHälfte div{
-  padding: 0 15%;
+#beschreibung{
+  padding: 0 10% 0 20%;
+}
+
+#beschreibung p{
+  text-align: left;
+}
+
+.grosseSchrift{
+  font-size: clamp(1.875rem, 3.45rem + -5.598vi, 3.438rem);
+}
+
+.mittlereSchrift{
+  font-size: clamp(1.25rem, 3.141rem + -7.565vi, 3.125rem);
+}
+
+.kleineSchrift{
+  font-size: clamp(0.875rem, 2.199rem + -5.296vi, 2.188rem);;
 }
