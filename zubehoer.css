@@ -33,6 +33,7 @@ h1{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 #RechteHälfte img{
@@ -40,7 +41,10 @@ h1{
 }
 
 #beschreibung{
-  padding: 0 10% 0 20%;
+  padding: 5% 10%;
+  border-radius: 69px;
+  background: #9F9F9F;
+  box-shadow: 0px 0px 106.3px 5px rgba(0, 0, 0, 0.50);
 }
 
 #beschreibung p{
@@ -48,13 +52,13 @@ h1{
 }
 
 .grosseSchrift{
-  font-size: clamp(1.875rem, 3.45rem + -5.598vi, 3.438rem);
+  font-size: clamp(1.875rem, 1.651rem + 1.122vi, 4.063rem);
 }
 
 .mittlereSchrift{
-  font-size: clamp(1.25rem, 3.141rem + -7.565vi, 3.125rem);
+  font-size: clamp(1.25rem, 1.058rem + 0.962vi, 3.125rem);
 }
 
 .kleineSchrift{
-  font-size: clamp(0.875rem, 2.199rem + -5.296vi, 2.188rem);;
+  font-size: clamp(0.875rem, 0.74rem + 0.673vi, 2.188rem);
 }
