@@ -34,7 +34,48 @@ h1{
   justify-content: center;
   grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
   grid-template-rows: 180px 210px 180px;
+  grid-template-areas: 
+  "white-space white-space Rad Rad Rad white-space AutoSchlüssel AutoSchlüssel AutoSchlüssel white-space white-space pfeilhoch"
+  "Cap Cap Cap white-space white-space white-space white-space white-space Modellauto Modellauto Modellauto white-space"
+  "white-space white-space Flasche Flasche Flasche white-space Schlüsselanhänger Schlüsselanhänger Schlüsselanhänger white-space white-space pfeilrunter";
 }
+
+#LinkeHälfte div{
+  width: 100%;
+  color: green;
+}
+
+/* Grid-Areas Start **********************/
+
+.js-Modellauto{
+  grid-area: Modellauto;
+}
+.js-KreisSchlüsselanhänger{
+  grid-area: Schlüsselanhänger;
+}
+.js-Flasche{
+  grid-area: Flasche;
+}
+.js-Cap{
+  grid-area: Cap;
+}
+.js-Rad{
+  grid-area: Rad;
+}
+.js-AutoSchlüssel{
+  grid-area: AutoSchlüssel;
+}
+.whitespace{
+  grid-area: white-space;
+}
+.js-Pfeilhoch{
+  grid-area: pfeilhoch;
+}
+.js-pfeilrunter{
+  grid-area: pfeilrunter;
+}
+
+/* Grid-Areas Ende **********************/
 
 #RechteHälfte{
   padding: 0 7.5%;
